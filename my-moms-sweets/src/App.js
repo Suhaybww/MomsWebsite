@@ -3,6 +3,7 @@ import './App.css';
 import './Header.css';  // import the header CSS
 import HeroSection from './components/HeroSection';  
 import AboutSection from './components/AboutSection';
+import HowToOrderSection from './components/HowToOrderSection'; // Importing HowToOrderSection
 import Footer from './components/Footer';  // import the Footer component
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
       <HeroSection />  
       
       <AboutSection />  
+
+      <HowToOrderSection />  {/* Your HowToOrder Section */}
+
       
       {/* Other sections or components can go here */}
 

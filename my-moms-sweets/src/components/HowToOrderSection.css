@@ -1,0 +1,60 @@
+/* Base container for better layout control */
+.order-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAF3E0;  /* Creamy background for a warm, traditional look */
+    padding: 2em;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Make the heading stand out more */
+  .order-content h1 {
+    font-size: 2.5em;
+    color: #8B0000;  /* Deep Red to match the Halwa color */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  /* Better styling for the paragraph text */
+  .order-content p {
+    margin-top: 1em;
+    color: #333;  /* Dark Gray */
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0 1em;
+  }
+  
+  /* Ordered list for the steps */
+  .order-steps {
+    margin-top: 1.5em;
+    font-size: 1.2em;
+    color: #333;  /* Dark Gray */
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+    padding-left: 2em;
+    list-style-type: none;  /* Removes browser's default numbering */
+  }
+  
+  /* Individual list items */
+  .order-steps li {
+    margin-bottom: 0.5em;
+    text-indent: -1em;
+    padding-left: 1em;
+  }
+  
+  /* Special styling for the list numbers */
+  .order-steps li:before {
+    content: counter(step-counter) ". ";
+    counter-increment: step-counter;
+    color: #8B0000;  /* Deep Red */
+    font-weight: bold;
+  }
+  .order-content {
+    text-align: center;
+    counter-reset: step-counter;
+  }
+  
