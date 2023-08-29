@@ -1,0 +1,42 @@
+.contact-me-container {
+    padding: 2em;
+    background-color: #FAF3E0;  /* Creamy background for a warm feel */
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #8B0000;  /* Deep red to match the Halwa color */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .contact-me-form {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input, textarea {
+    width: 80%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 100px;  /* Added height */
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    background-color: #8B0000;  /* Deep red */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6a0000; /* A darker shade of red for hover */
+  }
+  
