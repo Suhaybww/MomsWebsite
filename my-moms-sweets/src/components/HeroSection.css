@@ -1,0 +1,56 @@
+/* General resets and page setup */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #F2F2F2;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Hero section container */
+  .hero-container {
+    position: relative;
+    text-align: center;
+    color: #FAFAFA;
+  }
+  
+  /* Hero image */
+  .hero-image {
+    width: 100%;
+    height: auto;
+    filter: brightness(65%);
+  }
+  
+  /* Text box inside the hero section */
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 3px solid #8B0000;  /* Deep Red Border */
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  /* Heading and paragraph */
+  .hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #FFD700;  /* Gold */
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    margin-top: 15px;
+    color: #FAFAFA;  /* Off-white */
+  }
+  
+  /* Hover effect */
+  .hero-container:hover .hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease;
+  }
+  
