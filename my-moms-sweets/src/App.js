@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import './Header.css';  
+import Header from './components/Header'; 
 import HeroSection from './components/HeroSection';  
 import AboutSection from './components/AboutSection';
 import HowToOrderSection from './components/HowToOrderSection'; 
@@ -12,9 +12,7 @@ import ContactMeSection from './components/ContactMeSection';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Sofiya's Traditional Somali Halwa
-      </header>
+      <Header />
 
       <HeroSection />  
       

@@ -1,3 +1,4 @@
+/* Header.css */
 .App-header {
     background-color: #8B0000;  /* Deep Red */
     color: #ffffff;  /* White */
@@ -6,5 +7,4 @@
     font-size: 1.2em;  /* Smaller font size */
     font-weight: 600;
     letter-spacing: 1px;
-  }
-  
+}
