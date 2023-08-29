@@ -1,20 +1,17 @@
 import React from 'react';
-import './ContactMeSection.css';
+import './ContactSection.css';
 
-const ContactMeSection = () => {
+const ContactSection = () => {
   return (
-    <div className="contact-me-container">
-      <h1>Contact Me</h1>
-      <p>If you're interested in placing an order or have any inquiries, please fill out the form below:</p>
-      <form className="contact-me-form">
-        <input type="text" placeholder="Your Name" />
-        <input type="email" placeholder="Your Email" />
-        <input type="tel" placeholder="Your Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" /> {/* Added phone number field */}
-        <textarea placeholder="Your Message" rows="5"></textarea> {/* Made the textarea larger */}
-        <button type="submit">Send</button>
+    <div className="contact-container">
+      <h1>Contact Sofiya</h1>
+      <form action="http://localhost:3001/send" method="POST">
+        <textarea name="message" rows="4" cols="50" placeholder="Write your message here"></textarea>
+        <button type="submit">Send Email</button>
       </form>
+      <p>Or call us at: +1 123-456-7890</p>
     </div>
   );
 };
 
-export default ContactMeSection;
+export default ContactSection;
