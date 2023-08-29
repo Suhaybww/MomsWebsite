@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header'; 
+import Header from './components/Header';  // Importing Header
+import NavBar from './components/NavBar';  // Importing NavBar
 import HeroSection from './components/HeroSection';  
 import AboutSection from './components/AboutSection';
 import HowToOrderSection from './components/HowToOrderSection'; 
@@ -8,23 +9,33 @@ import Footer from './components/Footer';
 import ContactSection from './components/ContactSection'; 
 import ContactMeSection from './components/ContactMeSection';  
 
-
 function App() {
   return (
     <div className="App">
       <Header />
+      <NavBar />  {/* Your NavBar here */}
 
-      <HeroSection />  
+      <div id="heroSection">
+        <HeroSection />
+      </div>
+
+      <div id="aboutSection">
+        <AboutSection />
+      </div>
       
-      <AboutSection />  
+      <div id="howToOrderSection">
+        <HowToOrderSection />
+      </div>
 
-      <HowToOrderSection /> 
+      <div id="contactSection">
+        <ContactSection />
+      </div>
 
-      <ContactSection /> 
+      <div id="contactMeSection">
+        <ContactMeSection />
+      </div>
 
-      <ContactMeSection />
-
-      <Footer /> 
+      <Footer />
     </div>
   );
 }
