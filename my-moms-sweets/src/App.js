@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import HowToOrderSection from './components/HowToOrderSection'; // Importing HowToOrderSection
 import Footer from './components/Footer';  // import the Footer component
+import ContactSection from './components/ContactSection'; // Don't forget to import!
 
 function App() {
   return (
@@ -17,10 +18,9 @@ function App() {
       
       <AboutSection />  
 
-      <HowToOrderSection />  {/* Your HowToOrder Section */}
+      <HowToOrderSection /> 
 
-      
-      {/* Other sections or components can go here */}
+      <ContactSection /> 
 
       <Footer />  {/* Your Footer here */}
     </div>
