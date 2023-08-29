@@ -1,0 +1,10 @@
+.App-header {
+    background-color: #8B0000;  /* Deep Red */
+    color: #ffffff;  /* White */
+    padding: 0.5em 0;  /* Reduced padding */
+    text-align: center;
+    font-size: 1.2em;  /* Smaller font size */
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  

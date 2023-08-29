@@ -1,0 +1,38 @@
+.about-container {
+    padding: 4em;
+    background-color: #fff5e1; /* A very light beige background */
+    border-top: 2px solid #8B0000; /* Deep Red */
+    border-bottom: 2px solid #8B0000; /* Deep Red */
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-content h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #8B0000;  /* Deep Red */
+    text-shadow: 1px 1px 2px #aaa;
+  }
+  
+  .about-content p {
+    font-family: 'Georgia', serif; /* A more traditional font */
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-top: 1.5em;
+    text-align: justify;
+    color: #333;
+    max-width: 800px;
+    padding: 0 1em;
+  }
+  
+  .about-image {
+    margin-top: 2em;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
