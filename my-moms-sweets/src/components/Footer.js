@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className="App-footer">
-      © 2023 Sofiya's Traditional Somali Halwa | Contact: +1 (123) 456-7890
+      © 2023 Safiyo's Traditional Somali Halwa
     </footer>
   );
 };

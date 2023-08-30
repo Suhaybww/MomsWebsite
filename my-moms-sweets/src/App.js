@@ -1,39 +1,37 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
-import Header from './components/Header';  // Importing Header
-import NavBar from './components/NavBar';  // Importing NavBar
+import Header from './components/Header'; 
+import NavBar from './components/NavBar';  
 import HeroSection from './components/HeroSection';  
 import AboutSection from './components/AboutSection';
 import HowToOrderSection from './components/HowToOrderSection'; 
 import Footer from './components/Footer';  
 import ContactSection from './components/ContactSection'; 
-import ContactMeSection from './components/ContactMeSection';  
+import FadeInSection from './components/FadeInSection';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <NavBar />  {/* Your NavBar here */}
+      <NavBar />
 
       <div id="heroSection">
         <HeroSection />
       </div>
 
-      <div id="aboutSection">
+      <FadeInSection>
         <AboutSection />
-      </div>
-      
-      <div id="howToOrderSection">
+      </FadeInSection>
+
+      <FadeInSection>
         <HowToOrderSection />
-      </div>
+      </FadeInSection>
 
-      <div id="contactSection">
+      <FadeInSection>
         <ContactSection />
-      </div>
-
-      <div id="contactMeSection">
-        <ContactMeSection />
-      </div>
+      </FadeInSection>
 
       <Footer />
     </div>

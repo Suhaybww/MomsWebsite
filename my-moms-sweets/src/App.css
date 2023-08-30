@@ -31,3 +31,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+.image-hover {
+  transition: all 0.3s ease;
+}
+
+.image-hover:hover {
+  transform: scale(1.1);
+}
