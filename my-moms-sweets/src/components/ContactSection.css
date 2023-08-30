@@ -3,6 +3,7 @@
   padding: 2em;
   background-color: #FAF3E0;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  border-top: 2px solid #8B0000; /* Adding Deep Red border-top */
 }
 
 .contact-content, .contact-me-form {
