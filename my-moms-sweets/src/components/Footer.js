@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className="App-footer">
-      © 2023 Safiyo's Traditional Somali Halwa
+      © 2023 Safiyo's Traditional Somali Halwa | Melbourne | Australia
     </footer>
   );
 };

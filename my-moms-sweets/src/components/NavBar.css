@@ -1,31 +1,30 @@
 .nav-bar {
-    background-color: #8B0000;  /* Deep Red */
-    color: white;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .nav-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0.5em;
-    overflow: hidden;
-  }
-  
-  .nav-list li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .nav-list a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .nav-list a:hover {
-    border-bottom: 2px solid white;
-  }
-  
+  background-color: #8B0000;
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5em;
+  overflow: hidden;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  border-bottom: 2px solid white;
+}
