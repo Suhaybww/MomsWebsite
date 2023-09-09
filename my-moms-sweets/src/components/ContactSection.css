@@ -47,6 +47,14 @@ textarea {
   border: 1px solid #ccc;
 }
 
+.contact-me-form label, 
+.contact-me-form input, 
+.contact-me-form textarea {
+  display: block;
+  margin: 0 auto 1em auto; /* Center align and add space below */
+  width: 80%; /* Uniform width */
+}
+
 @media only screen and (max-width: 768px) {
   input,
   textarea {
@@ -75,3 +83,4 @@ button:hover {
     width: 95%;
   }
 }
+
