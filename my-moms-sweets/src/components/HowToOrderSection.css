@@ -6,6 +6,7 @@
     background-color: #FAF3E0;  /* Creamy background for a warm, traditional look */
     padding: 2em;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    border-top: 2px solid #8B0000; /* Adding Deep Red border-top */
   }
   
   /* Make the heading stand out more */
@@ -58,3 +59,11 @@
     counter-reset: step-counter;
   }
   
+  @media only screen and (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2em;
+    }
+    .hero-content p {
+      font-size: 1em;
+    }
+  }

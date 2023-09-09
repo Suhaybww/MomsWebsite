@@ -1,29 +1,86 @@
+/* ContactSection.css */
 .contact-container {
-    padding: 2em;
-    background-color: #FAF3E0; /* Creamy background for a warm feel */
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  padding: 2em;
+  background-color: #FAF3E0;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-top: 2px solid #8B0000;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.contact-content,
+.contact-me-form {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #8B0000;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info {
+  list-style-type: none;
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 1em;
+}
+
+.contact-info li {
+  margin-bottom: 0.5em;
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+}
+
+.contact-me-form label, 
+.contact-me-form input, 
+.contact-me-form textarea {
+  display: block;
+  margin: 0 auto 1em auto; /* Center align and add space below */
+  width: 80%; /* Uniform width */
+}
+
+@media only screen and (max-width: 768px) {
+  input,
+  textarea {
+    width: 95%;
   }
-  
-  .contact-content {
-    text-align: center;
-    max-width: 800px;
-    margin: auto;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: #8B0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6a0000;
+}
+
+@media only screen and (max-width: 768px) {
+  input, textarea {
+    width: 95%;
   }
-  
-  .contact-content h1 {
-    font-size: 2.5em;
-    color: #8B0000; /* Deep red to match the Halwa color */
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-  }
-  
-  .contact-info {
-    list-style-type: none; /* No bullets */
-    font-size: 1.2em;
-    color: #333; /* Dark Gray */
-    margin-top: 1em;
-  }
-  
-  .contact-info li {
-    margin-bottom: 0.5em;
-  }
-  
+}
+

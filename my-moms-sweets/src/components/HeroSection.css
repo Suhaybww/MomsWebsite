@@ -1,14 +1,14 @@
 /* General resets and page setup */
 body, h1, p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-color: #F2F2F2;
-    font-family: 'Arial', sans-serif;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F2F2F2;
+  font-family: 'Arial', sans-serif;
+}
+
   /* Hero section container */
   .hero-container {
     position: relative;
@@ -16,41 +16,40 @@ body, h1, p {
     color: #FAFAFA;
   }
   
-  /* Hero image */
   .hero-image {
     width: 100%;
     height: auto;
     filter: brightness(65%);
   }
   
-  /* Text box inside the hero section */
   .hero-content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.4);
-    border: 3px solid #8B0000;  /* Deep Red Border */
+    border: 3px solid #8B0000;
     border-radius: 15px;
     padding: 20px;
   }
   
-  /* Heading and paragraph */
   .hero-content h1 {
-    font-size: 50px;
+    font-size: 2.5em;
     margin-bottom: 15px;
-    color: #FFD700;  /* Gold */
+    color: #FFD700;
   }
   
   .hero-content p {
-    font-size: 24px;
+    font-size: 1.2em;
     margin-top: 15px;
-    color: #FAFAFA;  /* Off-white */
+    color: #FAFAFA;
   }
   
-  /* Hover effect */
-  .hero-container:hover .hero-content {
-    background-color: rgba(0, 0, 0, 0.6);
-    transition: background-color 0.3s ease;
+  @media only screen and (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2em;
+    }
+    .hero-content p {
+      font-size: 1em;
+    }
   }
-  

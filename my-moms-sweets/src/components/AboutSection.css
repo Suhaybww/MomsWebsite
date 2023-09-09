@@ -2,7 +2,6 @@
     padding: 4em;
     background-color: #fff5e1; /* A very light beige background */
     border-top: 2px solid #8B0000; /* Deep Red */
-    border-bottom: 2px solid #8B0000; /* Deep Red */
   }
   
   .about-content {
@@ -32,6 +31,8 @@
   .about-image {
     margin-top: 2em;
     max-width: 100%;
+    max-height: 600px;  /* Limiting the maximum height */
+    object-fit: cover;  /* To keep aspect ratio */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }

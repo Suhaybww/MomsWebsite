@@ -1,4 +1,6 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
 import Header from './components/Header';  // Importing Header
 import NavBar from './components/NavBar';  // Importing NavBar
@@ -7,7 +9,7 @@ import AboutSection from './components/AboutSection';
 import HowToOrderSection from './components/HowToOrderSection'; 
 import Footer from './components/Footer';  
 import ContactSection from './components/ContactSection'; 
-import ContactMeSection from './components/ContactMeSection';  
+
 
 function App() {
   return (
@@ -29,10 +31,6 @@ function App() {
 
       <div id="contactSection">
         <ContactSection />
-      </div>
-
-      <div id="contactMeSection">
-        <ContactMeSection />
       </div>
 
       <Footer />
