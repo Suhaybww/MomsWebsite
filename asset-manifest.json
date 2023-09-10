@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/MomsWebsite/static/css/main.3a3b734a.css",
-    "main.js": "/MomsWebsite/static/js/main.94daec08.js",
+    "main.js": "/MomsWebsite/static/js/main.290c0673.js",
     "static/js/787.6b6429ab.chunk.js": "/MomsWebsite/static/js/787.6b6429ab.chunk.js",
     "static/media/momMakingHalwa.jpg": "/MomsWebsite/static/media/momMakingHalwa.b61c358b508192f188f3.jpg",
     "static/media/hero-image.jpg": "/MomsWebsite/static/media/hero-image.60cfdab0f77d34c458c5.jpg",
     "index.html": "/MomsWebsite/index.html",
     "main.3a3b734a.css.map": "/MomsWebsite/static/css/main.3a3b734a.css.map",
-    "main.94daec08.js.map": "/MomsWebsite/static/js/main.94daec08.js.map",
+    "main.290c0673.js.map": "/MomsWebsite/static/js/main.290c0673.js.map",
     "787.6b6429ab.chunk.js.map": "/MomsWebsite/static/js/787.6b6429ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a3b734a.css",
-    "static/js/main.94daec08.js"
+    "static/js/main.290c0673.js"
   ]
 }
